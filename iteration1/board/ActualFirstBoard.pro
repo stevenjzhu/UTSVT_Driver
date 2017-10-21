@@ -1,4 +1,4 @@
-update=Thu 12 Oct 2017 06:04:43 PM CDT
+update=Sun 15 Oct 2017 05:41:21 PM CDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,6 +27,6 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=
+LibDir=/media/storage/UTSVT/UTSVT_Driver/lib
 [eeschema/libraries]
-LibName1=UTSVT_Lib
+LibName1=UTSVT_Driver
