@@ -83,34 +83,26 @@ $EndComp
 $Sheet
 S 4050 3050 850  200 
 U 59EC784F
-F0 "Step_down_circuit1" 60
-F1 "Step_down_circuit.sch" 60
+F0 "step_down_circuit1" 60
+F1 "step_down_circuit.sch" 60
 F2 "Vin" I L 4050 3150 60 
 F3 "Vout" O R 4900 3150 60 
 $EndSheet
 $Sheet
 S 4050 3550 850  200 
 U 59EC8586
-F0 "Step_down_circuit2" 60
-F1 "Step_down_circuit.sch" 60
+F0 "step_down_circuit2" 60
+F1 "step_down_circuit.sch" 60
 F2 "Vin" I L 4050 3650 60 
 F3 "Vout" O R 4900 3650 60 
 $EndSheet
 $Sheet
 S 4050 4000 850  200 
 U 59EC8F0E
-F0 "Step_down_circuit3" 60
-F1 "Step_down_circuit.sch" 60
+F0 "step_down_circuit3" 60
+F1 "step_down_circuit.sch" 60
 F2 "Vin" I L 4050 4100 60 
 F3 "Vout" O R 4900 4100 60 
-$EndSheet
-$Sheet
-S 4050 4500 850  200 
-U 59EC8F12
-F0 "Step_down_circuit4" 60
-F1 "Step_down_circuit.sch" 60
-F2 "Vin" I L 4050 4600 60 
-F3 "Vout" O R 4900 4600 60 
 $EndSheet
 $Comp
 L CAN_adapter U?
@@ -167,6 +159,47 @@ F 3 "" H 9800 3250 50  0001 C CNN
 	1    9800 3250
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4050 4450 850  200 
+U 59F275D4
+F0 "step_down_circuit_analog1" 60
+F1 "step_down_circuit_analog.sch" 60
+F2 "Vin" I L 4050 4550 60 
+F3 "Vout" O R 4900 4550 60 
+$EndSheet
+$Comp
+L GND #PWR?
+U 1 1 59F29663
+P 7850 3350
+F 0 "#PWR?" H 7850 3100 50  0001 C CNN
+F 1 "GND" H 7850 3200 50  0000 C CNN
+F 2 "" H 7850 3350 50  0001 C CNN
+F 3 "" H 7850 3350 50  0001 C CNN
+	1    7850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 59F296AF
+P 7550 3250
+F 0 "#PWR?" H 7550 3100 50  0001 C CNN
+F 1 "+3.3V" H 7550 3390 50  0000 C CNN
+F 2 "" H 7550 3250 50  0001 C CNN
+F 3 "" H 7550 3250 50  0001 C CNN
+	1    7550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 59F29741
+P 7700 3350
+F 0 "C?" H 7725 3450 50  0000 L CNN
+F 1 "C" H 7725 3250 50  0000 L CNN
+F 2 "" H 7738 3200 50  0001 C CNN
+F 3 "" H 7700 3350 50  0001 C CNN
+	1    7700 3350
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	7950 3850 8550 3850
 Wire Wire Line
@@ -207,9 +240,32 @@ Wire Wire Line
 Wire Wire Line
 	9700 3850 9650 3850
 Connection ~ 9700 3850
-Wire Wire Line
-	7550 3550 7550 3350
-Wire Wire Line
-	7550 3350 9800 3350
 Connection ~ 9800 3350
+Wire Wire Line
+	7550 3250 7550 3550
+Connection ~ 7550 3350
+Wire Wire Line
+	4900 3150 5050 3150
+Wire Wire Line
+	5050 3150 5050 4500
+Wire Wire Line
+	5050 4500 5450 4500
+Wire Wire Line
+	4900 3650 5100 3650
+Wire Wire Line
+	5100 3650 5100 4600
+Wire Wire Line
+	5100 4600 5450 4600
+Wire Wire Line
+	4900 4100 5150 4100
+Wire Wire Line
+	5150 4100 5150 4700
+Wire Wire Line
+	5150 4700 5450 4700
+Wire Wire Line
+	4900 4550 5200 4550
+Wire Wire Line
+	5200 4550 5200 4800
+Wire Wire Line
+	5200 4800 5450 4800
 $EndSCHEMATC
