@@ -48,23 +48,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nucleo U1
-U 1 1 59EB7F2F
-P 6100 4050
-F 0 "U1" H 6100 4350 60  0000 C CNN
-F 1 "Nucleo" H 6100 5200 60  0000 C CNN
-F 2 "UTSVT_board:AFBShieldBoard" H 6100 4350 60  0001 C CNN
-F 3 "" H 6100 4350 60  0001 C CNN
-	1    6100 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L DB37_Female_MountingHoles J1
 U 1 1 59EB8D19
 P 3400 3900
 F 0 "J1" H 3400 5950 50  0000 C CNN
 F 1 "DB37_Female_MountingHoles" H 3400 5875 50  0000 C CNN
-F 2 "Connectors_DSub:DB37FC" H 3400 3900 50  0001 C CNN
+F 2 "UTSVT_board:DB37FC" H 3400 3900 50  0001 C CNN
 F 3 "" H 3400 3900 50  0001 C CNN
 	1    3400 3900
 	-1   0    0    -1  
@@ -292,4 +281,15 @@ Wire Wire Line
 	5200 4800 5450 4800
 Wire Wire Line
 	4900 4550 5200 4550
+$Comp
+L Nucleo U1
+U 1 1 59F29930
+P 6100 4050
+F 0 "U1" H 6100 4350 60  0000 C CNN
+F 1 "Nucleo" H 6100 5200 60  0000 C CNN
+F 2 "UTSVT_board:AFBShieldBoard" H 6100 4350 60  0001 C CNN
+F 3 "" H 6100 4350 60  0001 C CNN
+	1    6100 4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
