@@ -39,3 +39,4 @@ _autosave-*
 
 # End of https://www.gitignore.io/api/kicad,linux
 
+iteration2/board/step_down_circuit.sch
