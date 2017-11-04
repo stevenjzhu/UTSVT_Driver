@@ -56,7 +56,7 @@ F 1 "DB37_Female_MountingHoles" H 3400 5875 50  0000 C CNN
 F 2 "UTSVT_board:DB37FC" H 3400 3900 50  0001 C CNN
 F 3 "" H 3400 3900 50  0001 C CNN
 	1    3400 3900
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L SN65HVD230 U2
@@ -67,31 +67,31 @@ F 1 "SN65HVD230" H 7450 4150 50  0000 R CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7550 3350 50  0001 C CNN
 F 3 "" H 7450 4250 50  0001 C CNN
 	1    7550 3850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Sheet
-S 4050 3050 850  200 
+S 4050 3050 850  200
 U 59EC784F
 F0 "step_down_circuit1" 60
 F1 "step_down_circuit.sch" 60
-F2 "Vin" I L 4050 3150 60 
-F3 "Vout" O R 4900 3150 60 
+F2 "Vin" I L 4050 3150 60
+F3 "Vout" O R 4900 3150 60
 $EndSheet
 $Sheet
-S 4050 3550 850  200 
+S 4050 3550 850  200
 U 59EC8586
 F0 "step_down_circuit2" 60
 F1 "step_down_circuit.sch" 60
-F2 "Vin" I L 4050 3650 60 
-F3 "Vout" O R 4900 3650 60 
+F2 "Vin" I L 4050 3650 60
+F3 "Vout" O R 4900 3650 60
 $EndSheet
 $Sheet
-S 4050 4000 850  200 
+S 4050 4000 850  200
 U 59EC8F0E
 F0 "step_down_circuit3" 60
 F1 "step_down_circuit.sch" 60
-F2 "Vin" I L 4050 4100 60 
-F3 "Vout" O R 4900 4100 60 
+F2 "Vin" I L 4050 4100 60
+F3 "Vout" O R 4900 4100 60
 $EndSheet
 $Comp
 L CAN_adapter U3
@@ -102,81 +102,59 @@ F 1 "CAN_adapter" H 9100 3950 60  0000 C CNN
 F 2 "UTSVT_board:CAN_adapter" H 9150 3750 60  0001 C CNN
 F 3 "" H 9150 3750 60  0001 C CNN
 	1    9100 3750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR6
 U 1 1 59F244D9
 P 9700 3950
-F 0 "#PWR01" H 9700 3700 50  0001 C CNN
+F 0 "#PWR6" H 9700 3700 50  0001 C CNN
 F 1 "GND" H 9700 3800 50  0000 C CNN
 F 2 "" H 9700 3950 50  0001 C CNN
 F 3 "" H 9700 3950 50  0001 C CNN
 	1    9700 3950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR02
+L GND #PWR4
 U 1 1 59F24541
 P 7550 4250
-F 0 "#PWR02" H 7550 4000 50  0001 C CNN
+F 0 "#PWR4" H 7550 4000 50  0001 C CNN
 F 1 "GND" H 7550 4100 50  0000 C CNN
 F 2 "" H 7550 4250 50  0001 C CNN
 F 3 "" H 7550 4250 50  0001 C CNN
 	1    7550 4250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR03
+L GND #PWR3
 U 1 1 59F262C8
 P 5350 3850
-F 0 "#PWR03" H 5350 3600 50  0001 C CNN
+F 0 "#PWR3" H 5350 3600 50  0001 C CNN
 F 1 "GND" H 5350 3700 50  0000 C CNN
 F 2 "" H 5350 3850 50  0001 C CNN
 F 3 "" H 5350 3850 50  0001 C CNN
 	1    5350 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR04
-U 1 1 59F2677A
-P 9800 3250
-F 0 "#PWR04" H 9800 3100 50  0001 C CNN
-F 1 "VCC" H 9800 3400 50  0000 C CNN
-F 2 "" H 9800 3250 50  0001 C CNN
-F 3 "" H 9800 3250 50  0001 C CNN
-	1    9800 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Sheet
-S 4050 4450 850  200 
+S 4050 4450 850  200
 U 59F275D4
 F0 "step_down_circuit_analog1" 60
 F1 "step_down_circuit_analog.sch" 60
-F2 "Vin" I L 4050 4550 60 
-F3 "Vout" O R 4900 4550 60 
+F2 "Vin" I L 4050 4550 60
+F3 "Vout" O R 4900 4550 60
 $EndSheet
 $Comp
-L GND #PWR05
+L GND #PWR5
 U 1 1 59F29663
 P 7850 3350
-F 0 "#PWR05" H 7850 3100 50  0001 C CNN
+F 0 "#PWR5" H 7850 3100 50  0001 C CNN
 F 1 "GND" H 7850 3200 50  0000 C CNN
 F 2 "" H 7850 3350 50  0001 C CNN
 F 3 "" H 7850 3350 50  0001 C CNN
 	1    7850 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR06
-U 1 1 59F296AF
-P 7550 3250
-F 0 "#PWR06" H 7550 3100 50  0001 C CNN
-F 1 "+3.3V" H 7550 3390 50  0000 C CNN
-F 2 "" H 7550 3250 50  0001 C CNN
-F 3 "" H 7550 3250 50  0001 C CNN
-	1    7550 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C1
@@ -187,8 +165,62 @@ F 1 "C" H 7725 3250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7738 3200 50  0001 C CNN
 F 3 "" H 7700 3350 50  0001 C CNN
 	1    7700 3350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
+$Comp
+L Nucleo U1
+U 1 1 59F29930
+P 6100 4050
+F 0 "U1" H 6100 4350 60  0000 C CNN
+F 1 "Nucleo" H 6100 5200 60  0000 C CNN
+F 2 "UTSVT_board:AFBShieldBoard" H 6100 4350 60  0001 C CNN
+F 3 "" H 6100 4350 60  0001 C CNN
+	1    6100 4050
+	1    0    0    -1
+$EndComp
+$Comp
+L REM1_12to3.3 U4
+U 1 1 59F4D82D
+P 4750 5400
+F 0 "U4" H 4750 5250 60  0000 C CNN
+F 1 "REM1_12to3.3" H 4750 5600 60  0000 C CNN
+F 2 "MotorControllerStuff:REM1_12to3.3" H 4750 5600 60  0001 C CNN
+F 3 "" H 4750 5600 60  0001 C CNN
+	1    4750 5400
+	1    0    0    -1
+$EndComp
+Text Label 4000 5300 0    60   ~ 0
+12Vin
+$Comp
+L GND #PWR1
+U 1 1 59F4EAEA
+P 4200 5550
+F 0 "#PWR1" H 4200 5300 50  0001 C CNN
+F 1 "GND" H 4200 5400 50  0000 C CNN
+F 2 "" H 4200 5550 50  0001 C CNN
+F 3 "" H 4200 5550 50  0001 C CNN
+	1    4200 5550
+	1    0    0    -1
+$EndComp
+Text GLabel 5200 5300 2    60   Input ~ 0
+3.3V
+$Comp
+L GND #PWR2
+U 1 1 59F4F385
+P 5300 5550
+F 0 "#PWR2" H 5300 5300 50  0001 C CNN
+F 1 "GND" H 5300 5400 50  0000 C CNN
+F 2 "" H 5300 5550 50  0001 C CNN
+F 3 "" H 5300 5550 50  0001 C CNN
+	1    5300 5550
+	1    0    0    -1
+$EndComp
+Text GLabel 7550 3250 0    60   Input ~ 0
+3.3V
+Text GLabel 3900 5700 3    60   Input ~ 0
++12V
+Text GLabel 9800 3250 0    60   Input ~ 0
++12V
 Wire Wire Line
 	7950 3850 8550 3850
 Wire Wire Line
@@ -236,41 +268,25 @@ Connection ~ 7550 3350
 Wire Wire Line
 	4900 3150 5050 3150
 Wire Wire Line
-	5050 3150 5050 4500
-Wire Wire Line
-	5050 4500 5450 4500
+	5050 3150 5050 4700
 Wire Wire Line
 	4900 3650 5100 3650
 Wire Wire Line
-	5100 3650 5100 4600
+	4900 4100 5150 4000
 Wire Wire Line
-	5100 4600 5450 4600
-Wire Wire Line
-	4900 4100 5150 4100
-Wire Wire Line
-	5150 4100 5150 4700
-Wire Wire Line
-	5150 4700 5450 4700
-Wire Wire Line
-	3700 2500 4000 2500
+	5150 4000 5150 4600
 Wire Wire Line
 	4000 2500 4000 4550
 Wire Wire Line
 	4000 4550 4050 4550
 Wire Wire Line
-	3700 4300 3950 4300
-Wire Wire Line
 	3950 4300 3950 3650
 Wire Wire Line
 	3950 3650 4050 3650
 Wire Wire Line
-	3700 3900 3900 3900
-Wire Wire Line
 	3900 3900 3900 3150
 Wire Wire Line
 	3900 3150 4050 3150
-Wire Wire Line
-	3700 4700 3900 4700
 Wire Wire Line
 	3900 4700 3900 4100
 Wire Wire Line
@@ -290,6 +306,6 @@ F 1 "Nucleo" H 6100 5200 60  0000 C CNN
 F 2 "UTSVT_board:AFBShieldBoard" H 6100 4350 60  0001 C CNN
 F 3 "" H 6100 4350 60  0001 C CNN
 	1    6100 4050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $EndSCHEMATC

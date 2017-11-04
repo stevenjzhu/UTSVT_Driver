@@ -56,7 +56,7 @@ F 1 "10K" V 5207 4151 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5130 4150 30  0000 C CNN
 F 3 "~" H 5200 4150 30  0000 C CNN
 	1    5200 4150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R R11
@@ -67,29 +67,29 @@ F 1 "1M" V 5907 4401 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5830 4400 30  0000 C CNN
 F 3 "~" H 5900 4400 30  0000 C CNN
 	1    5900 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR016
+L GND #PWR16
 U 1 1 59F2810A
 P 5550 4350
-F 0 "#PWR016" H 5550 4350 30  0001 C CNN
+F 0 "#PWR16" H 5550 4350 30  0001 C CNN
 F 1 "GND" H 5550 4280 30  0001 C CNN
 F 2 "" H 5550 4350 60  0000 C CNN
 F 3 "" H 5550 4350 60  0000 C CNN
 	1    5550 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L GND #PWR017
+L GND #PWR17
 U 1 1 59F28110
 P 5900 4650
-F 0 "#PWR017" H 5900 4650 30  0001 C CNN
+F 0 "#PWR17" H 5900 4650 30  0001 C CNN
 F 1 "GND" H 5900 4580 30  0001 C CNN
 F 2 "" H 5900 4650 60  0000 C CNN
 F 3 "" H 5900 4650 60  0000 C CNN
 	1    5900 4650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C C5
@@ -100,7 +100,7 @@ F 1 "100nF" H 6106 4265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6138 4200 30  0000 C CNN
 F 3 "~" H 6100 4350 60  0000 C CNN
 	1    6100 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5450 4150 5450 4600
@@ -112,18 +112,18 @@ Wire Wire Line
 	5800 4150 6100 4150
 Connection ~ 5900 4150
 $Comp
-L GND #PWR018
+L GND #PWR18
 U 1 1 59F28122
 P 6100 4550
-F 0 "#PWR018" H 6100 4550 30  0001 C CNN
+F 0 "#PWR18" H 6100 4550 30  0001 C CNN
 F 1 "GND" H 6100 4480 30  0001 C CNN
 F 2 "" H 6100 4550 60  0000 C CNN
 F 3 "" H 6100 4550 60  0000 C CNN
 	1    6100 4550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 5550 3950 0    60   Input ~ 0
-+3.3V
+3.3V
 Wire Wire Line
 	5900 4250 5900 4150
 Wire Wire Line
@@ -147,6 +147,6 @@ F 1 "BAV99" H 5800 4300 60  0001 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 5550 4200 60  0001 C CNN
 F 3 "" H 5550 4200 60  0001 C CNN
 	1    5550 4200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $EndSCHEMATC
